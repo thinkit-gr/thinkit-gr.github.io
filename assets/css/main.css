@@ -528,7 +528,7 @@ a.back-to-top:focus {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .navbar-header {
         width: 100%;
     }
@@ -545,6 +545,7 @@ a.back-to-top:focus {
     }
     .slicknav_menu {
         display: block;
+        min-height: 85px;
     }
     .slicknav_nav .active a {
         background: #e91e63;
@@ -556,6 +557,10 @@ a.back-to-top:focus {
         color: #00b4d9;
         outline: none;
         background: #f8f9fa;
+    }
+
+    .slicknav_menu ul{
+        padding-top: 24px;
     }
 }
 
